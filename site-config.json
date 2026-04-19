@@ -1,0 +1,302 @@
+{
+  "meta": {
+    "siteTitle": "HND Assignment Help | Level 5 Distinction-Grade Support",
+    "siteDescription": "Professional HND assignment help for Level 5 Higher National Diploma students. Critical analysis, distinction-grade writing, on-time delivery. Trusted by 7,500+ students.",
+    "siteUrl": "https://hnd-assignment-help.co.uk",
+    "faviconPath": "/favicon.ico",
+    "googleFontsUrl": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+  },
+  "colors": {
+    "primary": "#1F2937",
+    "primaryDark": "#111827",
+    "accent": "#F43F5E",
+    "accentDark": "#E11D48",
+    "accentLight": "#FFE4E6",
+    "gold": "#F59E0B",
+    "goldDark": "#D97706",
+    "textBase": "#1A1A2E",
+    "textMuted": "#6B7280",
+    "bgWhite": "#FFFFFF",
+    "bgLight": "#F3F4F6",
+    "bgDark": "#1F2937",
+    "borderLight": "#E5E7EB",
+    "starColor": "#F59E0B",
+    "white": "#FFFFFF"
+  },
+  "typography": {
+    "fontFamily": "'Inter', sans-serif"
+  },
+  "header": {
+    "logoText": "HND Help",
+    "logoHref": "/",
+    "navLinks": [
+      { "label": "Services", "href": "#services" },
+      { "label": "About", "href": "#about" },
+      { "label": "How It Works", "href": "#how-it-works" },
+      { "label": "FAQ", "href": "#faq" }
+    ],
+    "ctaButton": { "label": "Get Help Now", "href": "#contact" }
+  },
+  "hero": {
+    "headingLine1": "Expert",
+    "headingHighlight": "HND Assignment Help",
+    "headingLine3": "For Level 5 Students",
+    "subtext": "Struggling with your Higher National Diploma assignments? Our Level 5 specialists deliver distinction-calibre, critically analytical work — matched to Pearson BTEC grading criteria.",
+    "primaryCta": { "label": "Get Your Assignment Done", "href": "#contact" },
+    "secondaryCta": { "label": "See how it works", "href": "#how-it-works" },
+    "badges": [
+      { "icon": "✓", "text": "100% Plagiarism Free" },
+      { "icon": "✓", "text": "On-Time Delivery" },
+      { "icon": "✓", "text": "Expert HND Writers" },
+      { "icon": "✓", "text": "Free Revisions" },
+      { "icon": "✓", "text": "Confidential & Secure" }
+    ]
+  },
+  "stats": [
+    { "icon": "🎓", "value": "7,500+", "label": "Assignments Completed" },
+    { "icon": "⭐", "value": "4.9/5",  "label": "Average Rating" },
+    { "icon": "📅", "value": "99%",    "label": "On-Time Delivery" },
+    { "icon": "🏆", "value": "14+",    "label": "Years Experience" }
+  ],
+  "about": {
+    "sectionId": "about",
+    "heading": "Why Students Trust Our HND Assignment Help",
+    "paragraphs": [
+      "We specialise exclusively in Pearson BTEC and SQA Higher National qualifications, with a dedicated team of writers who have direct experience with HND units, Distinction grading criteria, and the degree-level analytical writing standards expected at Level 5.",
+      "From HND Business and Computing through to Engineering and Health and Social Care, our writers understand how HND assessment works in practice — unit outcomes, distinction descriptors, critical evaluation frameworks, and the step up from HNC to HND academic expectations."
+    ],
+    "highlights": [
+      "HND-specialist writers",
+      "Unit-by-unit learning outcome alignment",
+      "Harvard referencing as standard",
+      "Turnitin originality report included"
+    ],
+    "imagePlaceholderAlt": "HND Assignment Help illustration"
+  },
+  "qualifications": {
+    "sectionId": "services",
+    "heading": "HND Subjects We Cover",
+    "subheading": "Expert support across all HND pathways at Level 5 — Pearson BTEC and SQA.",
+    "cards": [
+      {
+        "icon": "📕",
+        "title": "HND Assignment Help",
+        "description": "Expert guidance for all Pearson BTEC and SQA HND qualifications at Level 5. Unit-specific writing, Distinction grading strategies, and Harvard referencing support across all subjects.",
+        "href": "/hnd-assignment-help/"
+      },
+      {
+        "icon": "📊",
+        "title": "HND Business Assignment Help",
+        "description": "Specialist support for HND Business — strategic management, marketing, finance, HRM, and research project units. Critical analysis, Distinction-level frameworks, and professional report writing.",
+        "href": "/hnd-business-assignment-help/"
+      },
+      {
+        "icon": "💻",
+        "title": "HND Computing Assignment Help",
+        "description": "Technical assignment support for HND Computing — programming, networking, database, cybersecurity, and systems development. Precise analytical writing aligned to Pearson Level 5 criteria.",
+        "href": "/hnd-computing-assignment-help/"
+      },
+      {
+        "icon": "⚙️",
+        "title": "HND Engineering Assignment Help",
+        "description": "Specialist support for HND Mechanical, Electrical, Civil, and Manufacturing Engineering — technical reports, research projects, and unit assignments written to Distinction criteria.",
+        "href": "/hnd-engineering-assignment-help/"
+      },
+      {
+        "icon": "🏥",
+        "title": "HND Health and Social Care Assignment Help",
+        "description": "Level 5 support for HND Health and Social Care — health policy, management, leadership, reflective practice, and research-based unit assignments aligned to Pearson grading criteria.",
+        "href": "/hnd-health-and-social-care-assignment-help/"
+      }
+    ]
+  },
+  "features": {
+    "heading": "What's Included in Every Order",
+    "cards": [
+      {
+        "icon": "📝",
+        "title": "Custom Written Content",
+        "description": "Every piece is written from scratch to your brief, unit outcomes, and word count."
+      },
+      {
+        "icon": "🔍",
+        "title": "Plagiarism Report",
+        "description": "Turnitin originality report included with every submission."
+      },
+      {
+        "icon": "📚",
+        "title": "Full Harvard Referencing",
+        "description": "Properly formatted reference list and in-text citations per Pearson BTEC Level 5 requirements."
+      },
+      {
+        "icon": "✏️",
+        "title": "Unlimited Revisions",
+        "description": "Not satisfied? We revise until the work meets your expectations."
+      },
+      {
+        "icon": "🔒",
+        "title": "Strict Confidentiality",
+        "description": "Your identity and order details are never shared with third parties."
+      },
+      {
+        "icon": "⚡",
+        "title": "Express Delivery",
+        "description": "Need it fast? We offer 24-hour turnaround for urgent assignments."
+      }
+    ]
+  },
+  "whyChooseUs": {
+    "heading": "Why Choose Us Over Others",
+    "items": [
+      {
+        "icon": "🎯",
+        "title": "HND Specialists",
+        "description": "Unlike generic services, we focus solely on Pearson BTEC and SQA HND qualifications at Level 5."
+      },
+      {
+        "icon": "👨‍🏫",
+        "title": "Qualified Writers",
+        "description": "All writers hold degree-level or postgraduate credentials in their HND subject area, with direct Level 5 assessment experience."
+      },
+      {
+        "icon": "💬",
+        "title": "Direct Communication",
+        "description": "Message your writer directly via our platform throughout the project."
+      },
+      {
+        "icon": "💰",
+        "title": "Transparent Pricing",
+        "description": "Fixed prices published upfront. No hidden fees, ever."
+      }
+    ]
+  },
+  "testimonials": {
+    "heading": "What Our Students Say",
+    "items": [
+      {
+        "stars": 5,
+        "quote": "Got a Distinction on my HND Business strategic management unit. The critical analysis frameworks were spot-on and my assessor praised the depth of evaluation. Worth every penny.",
+        "name": "Marcus T.",
+        "course": "HND Business, Pearson BTEC Level 5"
+      },
+      {
+        "stars": 5,
+        "quote": "My HND Computing systems development assignment came back with zero revision requests. The writer clearly understood Level 5 technical writing and Distinction criteria perfectly.",
+        "name": "Priya N.",
+        "course": "HND Computing, Level 5"
+      },
+      {
+        "stars": 5,
+        "quote": "The HND Health and Social Care research project support was outstanding. Evidence-based, well-referenced, and delivered two days early. Highly recommend to any Level 5 student.",
+        "name": "Sarah W.",
+        "course": "HND Health and Social Care, Level 5"
+      }
+    ]
+  },
+  "howItWorks": {
+    "sectionId": "how-it-works",
+    "heading": "How It Works",
+    "subheading": "Four simple steps from brief to brilliant assignment.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Submit Your Brief",
+        "description": "Share your unit details, word count, deadline, and any guidance from your tutor."
+      },
+      {
+        "number": "02",
+        "title": "Get Matched",
+        "description": "We assign your order to a specialist HND writer within 30 minutes."
+      },
+      {
+        "number": "03",
+        "title": "Track Progress",
+        "description": "Monitor your assignment in real-time and message your writer directly."
+      },
+      {
+        "number": "04",
+        "title": "Download & Submit",
+        "description": "Receive your completed, plagiarism-checked assignment before your deadline."
+      }
+    ]
+  },
+  "faq": {
+    "sectionId": "faq",
+    "heading": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "Is this service specific to HND qualifications?",
+        "answer": "Yes. We specialise exclusively in Pearson BTEC and SQA HND qualifications at Level 5. Our writers are selected for their knowledge of HND units, Distinction grade descriptors, and the critical analytical standards expected at this level."
+      },
+      {
+        "question": "Will my assignment be plagiarism free?",
+        "answer": "Every assignment is written from scratch and run through Turnitin before delivery. You receive a copy of the originality report alongside your completed work."
+      },
+      {
+        "question": "How quickly can you complete my assignment?",
+        "answer": "Standard turnaround is 5–7 days. For urgent orders we offer 24-hour and 48-hour expedited delivery at an additional cost. Contact us to confirm availability for your deadline."
+      },
+      {
+        "question": "What if I'm not happy with the work?",
+        "answer": "We offer unlimited free revisions within 14 days of delivery. If we cannot meet your requirements after multiple revisions, we offer a full refund — no questions asked."
+      },
+      {
+        "question": "Is my information kept confidential?",
+        "answer": "Absolutely. We never share your personal information or order details with any third party. Payments are processed through secure, encrypted channels."
+      },
+      {
+        "question": "What is the difference between HNC and HND?",
+        "answer": "HNC is Level 4 (equivalent to first year of a degree) and HND is Level 5 (equivalent to second year). HND assignments require a higher degree of critical analysis, independent research, and strategic evaluation. Distinction at HND typically requires synthesis across multiple theoretical frameworks and evidence-based arguments."
+      },
+      {
+        "question": "Which HND subjects do you support?",
+        "answer": "We support all HND subjects including Business, Computing, Engineering (Mechanical, Electrical, Civil, Manufacturing), Health and Social Care, Construction, Hospitality Management, Sport and Exercise Science, and Early Childhood Studies."
+      }
+    ]
+  },
+  "mission": {
+    "heading": "Our Mission",
+    "text": "To bridge the gap between vocational study and degree-level academic writing — giving every HND student the critical thinking skills and expert support they need to succeed at Level 5."
+  },
+  "finalCta": {
+    "heading": "Ready to Hit Distinction in Your HND?",
+    "subtext": "Join 7,500+ HND students who've achieved outstanding results with our Level 5 expert support. Get started in under 2 minutes.",
+    "button": {
+      "label": "Start Your Order Today",
+      "href": "#contact"
+    }
+  },
+  "footer": {
+    "logoText": "HND Help",
+    "description": "The UK's specialist in HND Level 5 assignment support. Helping students achieve Distinction and progress to degree top-up since 2011.",
+    "columns": [
+      {
+        "heading": "Quick Links",
+        "links": [
+          { "label": "Services",     "href": "#services" },
+          { "label": "About Us",     "href": "#about" },
+          { "label": "How It Works", "href": "#how-it-works" },
+          { "label": "FAQ",          "href": "#faq" }
+        ]
+      },
+      {
+        "heading": "HND Subjects",
+        "links": [
+          { "label": "HND Assignment Help",                    "href": "/hnd-assignment-help/" },
+          { "label": "HND Business Assignment Help",           "href": "/hnd-business-assignment-help/" },
+          { "label": "HND Computing Assignment Help",          "href": "/hnd-computing-assignment-help/" },
+          { "label": "HND Engineering Assignment Help",        "href": "/hnd-engineering-assignment-help/" },
+          { "label": "HND Health & Social Care Help",         "href": "/hnd-health-and-social-care-assignment-help/" }
+        ]
+      },
+      {
+        "heading": "Contact",
+        "links": [
+          { "label": "support@hnd-help.co.uk", "href": "mailto:support@hnd-help.co.uk" },
+          { "label": "WhatsApp Us",             "href": "https://wa.me/447700900000" }
+        ]
+      }
+    ],
+    "copyright": "© 2026 HND Assignment Help. All rights reserved."
+  }
+}
