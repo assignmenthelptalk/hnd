@@ -123,4 +123,44 @@ const canonicalUrl = `${meta.siteUrl}/${page.slug}/`;
     margin-bottom: 2.5rem;
     line-height: 1.2;
   }
+
+  /* Related pages nav — injected via rawHtml before contact-form */
+  .related-pages {
+    margin: 2.5rem 0;
+    padding: 1.5rem;
+    background-color: var(--color-accent-light);
+    border: 1px solid var(--color-border-light);
+    border-left: 4px solid var(--color-accent);
+    border-radius: 0.5rem;
+  }
+  .related-pages h2 {
+    font-size: 0.8125rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--color-primary);
+    margin-bottom: 0.75rem;
+  }
+  .related-pages ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    list-style: none;
+  }
+  .related-pages ul li a {
+    display: inline-block;
+    padding: 0.3rem 0.875rem;
+    background-color: var(--color-bg-white);
+    border: 1px solid var(--color-border-light);
+    border-radius: 2rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--color-primary);
+    text-decoration: none;
+    transition: border-color 0.15s, color 0.15s;
+  }
+  .related-pages ul li a:hover {
+    border-color: var(--color-accent);
+    color: var(--color-accent);
+  }
 </style>
