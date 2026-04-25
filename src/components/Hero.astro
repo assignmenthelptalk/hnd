@@ -52,41 +52,35 @@ const {
         ))}
       </div>
     </div>
+
     <div class="hero__visual">
-      <div class="hero__image-wrap">
-        <img
-          src="/images/hero-student.png"
-          alt="HND Level 5 student at a UK college"
-          class="hero__image"
-          width="469"
-          height="254"
-          loading="eager"
-        />
-        <div class="hero__uk-badge">
-          <svg class="hero__uk-flag" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 30" aria-label="UK flag">
-            <clipPath id="t"><rect width="60" height="30"/></clipPath>
-            <rect width="60" height="30" fill="#012169"/>
-            <path d="M0,0 L60,30 M60,0 L0,30" stroke="#fff" stroke-width="6" clip-path="url(#t)"/>
-            <path d="M30,0 V30 M0,15 H60" stroke="#fff" stroke-width="10"/>
-            <path stroke="#C8102E" stroke-width="4" d="M0,0 L26,13 M34,17 L60,30 M60,0 L34,13 M26,17 L0,30" clip-path="url(#t)"/>
-            <path d="M30,0 V30 M0,15 H60" stroke="#C8102E" stroke-width="6"/>
+      <div class="hero__collage">
+        <!-- Left: tall engineering/welding image -->
+        <div class="hero__img hero__img--main">
+          <img src="/hero-engineering.png" alt="HND Engineering student welding with sparks" loading="eager" decoding="async" />
+        </div>
+        <!-- Right-top: media student at Houses of Parliament -->
+        <div class="hero__img hero__img--top">
+          <img src="/hero-media.png" alt="HND Media student filming at the Houses of Parliament" loading="eager" decoding="async" />
+        </div>
+        <!-- Right-bottom: health & social care -->
+        <div class="hero__img hero__img--bottom">
+          <img src="/hero-health.png" alt="HND Health and Social Care student with patient" loading="lazy" decoding="async" />
+        </div>
+        <!-- UK flag badge -->
+        <div class="hero__flag" aria-label="UK-based service">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 40" role="img" aria-hidden="true">
+            <rect width="60" height="40" fill="#012169"/>
+            <polygon points="0,0 8,0 60,36 60,40 52,40 0,4" fill="white"/>
+            <polygon points="52,0 60,0 60,4 8,40 0,40 0,36" fill="white"/>
+            <polygon points="0,0 5,0 60,37.3 60,40 55,40 0,2.7" fill="#C8102E"/>
+            <polygon points="55,0 60,0 60,2.7 5,40 0,40 0,37.3" fill="#C8102E"/>
+            <rect x="0" y="15" width="60" height="10" fill="white"/>
+            <rect x="25" y="0" width="10" height="40" fill="white"/>
+            <rect x="0" y="17" width="60" height="6" fill="#C8102E"/>
+            <rect x="27" y="0" width="6" height="40" fill="#C8102E"/>
           </svg>
-          <span>UK Specialists</span>
-        </div>
-        <div class="hero__card hero__card--1">
-          <span class="hero__card-icon">🎓</span>
-          <strong>Distinction Grade</strong>
-          <span>HND Level 5 Specialist</span>
-        </div>
-        <div class="hero__card hero__card--2">
-          <span class="hero__card-icon">⭐</span>
-          <strong>4.9/5 Rating</strong>
-          <span>7,500+ students</span>
-        </div>
-        <div class="hero__card hero__card--3">
-          <span class="hero__card-icon">✓</span>
-          <strong>Pearson BTEC & SQA</strong>
-          <span>All subjects covered</span>
+          <span>UK-Based Experts</span>
         </div>
       </div>
     </div>
@@ -204,122 +198,96 @@ const {
     font-weight: 800;
   }
 
-  /* Visual / image right column */
+  /* Collage visual */
   .hero__visual {
-    position: relative;
+    display: flex;
+    align-items: stretch;
   }
 
-  .hero__image-wrap {
+  .hero__collage {
     position: relative;
-    border-radius: 1.25rem;
-    overflow: visible;
-    box-shadow: 0 24px 64px rgba(27, 43, 75, 0.18);
-  }
-
-  .hero__image {
-    display: block;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0.625rem;
     width: 100%;
-    height: auto;
+    height: 480px;
     border-radius: 1.25rem;
-    object-fit: cover;
-    border: 4px solid var(--color-border-light);
+    overflow: hidden;
+    box-shadow: 0 16px 56px rgba(27, 43, 75, 0.18);
   }
 
-  /* UK flag badge — bottom-left corner of image */
-  .hero__uk-badge {
+  .hero__img {
+    overflow: hidden;
+  }
+
+  .hero__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    transition: transform 0.4s ease;
+  }
+
+  .hero__img:hover img {
+    transform: scale(1.04);
+  }
+
+  /* Engineering spans both rows on the left */
+  .hero__img--main {
+    grid-column: 1;
+    grid-row: 1 / 3;
+  }
+
+  .hero__img--top {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .hero__img--bottom {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  /* UK flag badge */
+  .hero__flag {
     position: absolute;
-    bottom: -1rem;
-    left: 1.25rem;
+    top: 1rem;
+    left: 1rem;
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    background: #fff;
-    border: 2px solid var(--color-border-light);
+    background: rgba(255, 255, 255, 0.95);
     border-radius: 2rem;
-    padding: 0.35rem 0.9rem 0.35rem 0.45rem;
-    box-shadow: 0 4px 16px rgba(27, 43, 75, 0.12);
-    font-size: 0.8rem;
-    font-weight: 700;
-    color: var(--color-primary);
-    letter-spacing: 0.01em;
-    z-index: 4;
+    padding: 0.4rem 0.75rem 0.4rem 0.45rem;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(4px);
+    z-index: 2;
   }
 
-  .hero__uk-flag {
-    width: 2rem;
-    height: 1rem;
-    border-radius: 0.2rem;
+  .hero__flag svg {
+    width: 30px;
+    height: 20px;
+    border-radius: 3px;
     flex-shrink: 0;
-    display: block;
   }
 
-  /* Floating stat cards */
-  .hero__card {
-    position: absolute;
-    background: var(--color-bg-white);
-    border: 1px solid var(--color-border-light);
-    border-radius: 1rem;
-    padding: 0.875rem 1.125rem;
-    display: flex;
-    flex-direction: column;
-    gap: 0.15rem;
-    box-shadow: 0 8px 32px rgba(27, 43, 75, 0.13);
-    min-width: 160px;
-    z-index: 3;
-  }
-
-  .hero__card strong {
-    font-size: 0.9375rem;
+  .hero__flag span {
+    font-size: 0.8125rem;
     font-weight: 700;
     color: var(--color-primary);
-  }
-
-  .hero__card span:last-child {
-    font-size: 0.8125rem;
-    color: var(--color-text-muted);
-  }
-
-  .hero__card-icon {
-    font-size: 1.375rem;
-    margin-bottom: 0.15rem;
-  }
-
-  /* Card positions: floating over the image */
-  .hero__card--1 {
-    top: -1.25rem;
-    right: -1.25rem;
-  }
-
-  .hero__card--2 {
-    top: 50%;
-    right: -1.5rem;
-    transform: translateY(-50%);
-  }
-
-  .hero__card--3 {
-    bottom: 2.5rem;
-    right: -1.25rem;
+    white-space: nowrap;
   }
 
   @media (max-width: 900px) {
     .hero__inner {
       grid-template-columns: 1fr;
-      gap: 2.5rem;
+      gap: 2rem;
     }
 
-    .hero__visual {
-      display: block;
-      padding: 0 1rem 1.5rem;
-    }
-
-    .hero__card--1,
-    .hero__card--2,
-    .hero__card--3 {
-      display: none;
-    }
-
-    .hero__uk-badge {
-      bottom: -0.75rem;
+    .hero__collage {
+      height: 320px;
     }
   }
 
@@ -336,6 +304,11 @@ const {
     .btn {
       width: 100%;
       justify-content: center;
+    }
+
+    .hero__collage {
+      height: 260px;
+      gap: 0.375rem;
     }
   }
 </style>
